@@ -1,0 +1,272 @@
+body {
+    background-color: #fff;
+    padding: 0;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    font-size: 17px;
+    line-height: 1.2;
+    color: #ffffff;
+    min-width: 320px;
+    overflow-x: hidden;
+    height: auto;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background-image: url(images1.jpg);
+    width: 100%;
+    height: 70px;
+}
+
+.navbar .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-menu {
+    color: #fff;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.navbar-menu li {
+    display: inline-block;
+}
+
+.navbar-menu li a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+    text-decoration: none;
+    padding: 15px;
+    transition: all .09s ease-in-out;
+}
+
+.navbar-menu li a:hover {
+    opacity: 1;
+}
+
+.navbar-wrap {
+    display: flex;
+    flex-flow: now nowrap
+}
+
+.callback {
+    margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    padding: 25px 20px;
+    text-decoration: none;
+    background-color: rgb(255, 136, 0);
+    color: #fff;
+    font-weight: 900;
+    transition: all .2s ease-in-out;
+    box-shadow: inset 0px 9px 9px rgb(195, 0, 255 .2);
+}
+
+.callback:hover {
+    transform: scale(1.04);
+}
+
+.navbar-brand {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px 10px;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(255, 136, 0);
+    transition: all .2s ease-in-out;
+}
+
+.navbar-brand:hover {
+    color: #ffffff;
+}
+
+.dropbtn {
+    background-color: rgb(255, 136, 0);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 136, 0);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(255, 136, 0);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.menu-class {
+    text-align: center;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: 100px;
+    margin-left: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(75, 75, 75);
+    padding: 3px;
+    border-radius: 15px;
+    color: #000000;
+    display: block;
+    width: 300px;
+}
+
+.gabilondo-menu a {
+    text-decoration: none;
+    color: #000000;
+    transition: all .2s ease-in-out;
+    box-shadow: inset 0px 9px 9px rgb(195, 0, 255 .2);
+}
+
+.menu1 {
+    font-size: 23px;
+}
+
+.menu1:hover {
+    transform: scale(1.04);
+}
+
+.menu2 {
+    font-size: 23px;
+}
+
+.menu2:hover {
+    transform: scale(1.04);
+}
+
+.menu3 {
+    font-size: 23px;
+}
+
+.menu3:hover {
+    transform: scale(1.04);
+}
+
+.menu4 {
+    font-size: 23px;
+}
+
+.menu4:hover {
+    transform: scale(1.04);
+}
+
+.menu5 {
+    font-size: 23px;
+}
+
+.menu5:hover {
+    transform: scale(1.04);
+}
+
+.menu6 {
+    font-size: 23px;
+}
+
+.menu6:hover {
+    transform: scale(1.04);
+}
+
+.menu7 {
+    font-size: 23px;
+}
+
+.menu7:hover {
+    transform: scale(1.04);
+}
+
+ul {
+    list-style-type: none;
+  }
+  
+.Russia-nowember  {
+    margin-top: 100px;
+    background-color: #d6d6d6;
+    padding: 15px;
+    color: #000000;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.Russia-nowember span {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    color: red;
+}
+
+.Russia-nebo  {
+    margin-top: 10px;
+    text-align: end;
+    background-color: #424242;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.main-geo {
+    text-align: center;
+    background-color: #f2f2f2;
+    color: #000000;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 30px;
+    margin-top: 100px;
+}
+
+.main-geo h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: rgb(255, 136, 0);
+    margin-bottom: 10px;
+}
+
+.main-geo span {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    color: #000000;
+}
+
+.main-geo p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
